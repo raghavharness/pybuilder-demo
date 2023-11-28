@@ -1,0 +1,4 @@
+# Self
+target/
+__pycache__/
+.pybuilder/
