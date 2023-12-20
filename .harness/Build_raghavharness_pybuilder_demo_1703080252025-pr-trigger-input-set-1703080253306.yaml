@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_raghavharness_pybuilder_demo_1703080252025-pr-trigger-input-set
+  identifier: Build_raghavharness_pybuilder_demo_1703080252025prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: autogen
+  pipeline:
+    identifier: Build_raghavharness_pybuilder_demo_1703080252025
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
