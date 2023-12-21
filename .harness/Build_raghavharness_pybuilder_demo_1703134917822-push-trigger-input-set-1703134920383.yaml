@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_raghavharness_pybuilder_demo_1703134917822-push-trigger-input-set
+  identifier: Build_raghavharness_pybuilder_demo_1703134917822pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: autogen
+  pipeline:
+    identifier: Build_raghavharness_pybuilder_demo_1703134917822
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
